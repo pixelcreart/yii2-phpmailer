@@ -1,3 +1,5 @@
+_IMPORTANT! THIS IS A FORM FROM weijiansdlx/yii2-phpmailer_
+
 # yii2-phpmailer
 Phpmailer extension for the Yii framework
 yii2-phpmailer
