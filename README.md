@@ -71,26 +71,26 @@ So, either run
 - for PHPMailer stable:
 
 ```
-php composer.phar require --prefer-dist gulltour/phpmailer "~1.0.0"
+php composer.phar require --prefer-dist pixelcreart/phpmailer "~1.0.0"
 ```
 
 - for dev:
 
 ```
-php composer.phar require --prefer-dist gulltour/phpmailer "~1.0.0"
+php composer.phar require --prefer-dist pixelcreart/phpmailer "~1.0.0"
 ```
 
 
 or add respectively:
 
 ```
-"gulltour/phpmailer": "~1.0.0"
+"pixelcreart/phpmailer": "~1.0.0"
 ```
 
 or
 
 ```
-"gulltour/phpmailer": "~1.0.0"
+"pixelcreart/phpmailer": "~1.0.0"
 ```
 
 to the require section of your composer.json.
@@ -139,7 +139,7 @@ return [
 //....
 	'components' => [
         'mailer' => [
-            'class'            => 'gulltour\phpmailer\Mailer',
+            'class'            => 'pixelcreart\phpmailer\Mailer',
             'viewPath'         => '@common/mail',
             'useFileTransport' => false,
             'config'           => [

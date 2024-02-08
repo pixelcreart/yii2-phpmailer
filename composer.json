@@ -1,16 +1,16 @@
 {
-    "name": "gulltour/phpmailer",
+    "name": "pixelcreart/phpmailer",
     "type": "yii2-extension",
     "description": "Phpmailer extension for the Yii framework",
     "keywords": ["yii2", "phpmailer", "mail", "email", "mailer"],
-    "homepage": "https://github.com/weijiansdlx/yii2-phpmailer",
+    "homepage": "https://github.com/pixelcreart/yii2-phpmailer",
     "license": "BSD 3-Clause",
     "version": "1.0.2",
     "authors": [
         {
-            "name": "Wei Jian",
-            "email": "fancy.wei@qq.com",
-            "homepage": "https://github.com/weijiansdlx",
+            "name": "Manuel Avelar",
+            "email": "me@mavelar.com",
+            "homepage": "https://github.com/pixelcreart",
             "role": "Developer"
         }
     ],
@@ -22,7 +22,7 @@
     },
     "autoload": {
         "psr-4": {
-            "gulltour\\phpmailer\\": ""
+            "pixelcreart\\phpmailer\\": ""
         }
     }
 }

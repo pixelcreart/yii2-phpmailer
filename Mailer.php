@@ -5,7 +5,7 @@
  * @license BSD 3-Clause, see LICENSE.md
  */
 
-namespace gulltour\phpmailer;
+namespace pixelcreart\phpmailer;
 
 use Yii;
 use yii\base\InvalidConfigException;
@@ -18,7 +18,7 @@ class Mailer extends BaseMailer
     /**
      * @var string $messageClass - message default class name
      */
-    public $messageClass = 'gulltour\phpmailer\Message';
+    public $messageClass = 'pixelcreart\phpmailer\Message';
     /**
      * @var Adapter $adapter - instance extended from phpMailer class
      */
@@ -63,7 +63,7 @@ class Mailer extends BaseMailer
             $this->adapter->setLanguage(ArrayHelper::remove($this->config, 'language', Yii::$app->language));
 
             //special handling of callback (see definition of \PHPMailer::$action_function)
-            $this->adapter->setCallback(ArrayHelper::remove($this->config, 'callback', 'gulltour\phpmailer\Mailer::processResult'));
+            $this->adapter->setCallback(ArrayHelper::remove($this->config, 'callback', 'pixelcreart\phpmailer\Mailer::processResult'));
 
             //special handling of charset. Note: PHPMailer in [[createBody()]] overrides charset and sets 'us-ascii' if no 8-bit chars are found!
             $this->adapter->setCharset(!empty($this->messageConfig['charset']) ? $this->messageConfig['charset'] : ArrayHelper::remove($this->config, 'charset', Yii::$app->charset));

@@ -4,14 +4,14 @@
  * @copyright Copyright (c) 2017 Wei Jian
  * @license BSD 3-Clause, see LICENSE.md
  */
-namespace gulltour\phpmailer;
+namespace pixelcreart\phpmailer;
 use PHPMailer\PHPMailer\PHPMailer;
 
 /**
  * A wrapper class to resolve some inconsistencies across original PHPMailer versions
  * (i.e. some missing setters and getters, etc.)
  *
- * @package gulltour\phpmailer
+ * @package pixelcreart\phpmailer
  */
 class Adapter extends PHPMailer
 {

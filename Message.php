@@ -4,13 +4,13 @@
  * @copyright Copyright (c) 2017 Wei Jian
  * @license BSD 3-Clause, see LICENSE.md
  */
-namespace gulltour\phpmailer;
+namespace pixelcreart\phpmailer;
 use yii\mail\BaseMessage;
 
 class Message extends BaseMessage
 {
     /**
-     * @var \gulltour\phpmailer\Mailer $mailer the mailer instance that created this message
+     * @var \pixelcreart\phpmailer\Mailer $mailer the mailer instance that created this message
      */
     public $mailer = null;
     /**
